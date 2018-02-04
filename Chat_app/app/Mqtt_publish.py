@@ -6,7 +6,7 @@ import os
 broker="sungura1-angani-ke-host.africastalking.com"
 port = 10883                         #Broker port
 user = "amaina"                    #Connection username
-password = "TamaRind"            #Connection password
+password = "set_password"            #Connection password
 
 def on_connect(client, userdata, flags, rc):
  
