@@ -32,7 +32,7 @@ Connected = False   #global variable for the state of the connection
 broker_address= "sungura1-angani-ke-host.africastalking.com"  #Broker address
 port = 10883                         #Broker port
 user = "amaina"                    #Connection username
-password = "TamaRind"            #Connection password
+password = "set_password"            #Connection password
  
 client = mqttClient.Client("Amaina")               #create new instance
 client.username_pw_set(user, password=password)    #set username and password
